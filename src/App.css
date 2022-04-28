@@ -1,0 +1,60 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.form-component{
+  padding: 20px
+}
+h1{
+  color: #154c79;
+}
+input[type=file]::file-selector-button {
+  border: 2px solid #1976d2;
+  padding: .2em .4em;
+  border-radius: .2em;
+  background-color: #1976d2;
+  transition: 1s;
+  color: #FFFFFF;
+  padding: 8px;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+input[type=file]::file-selector-button:hover {
+  background-color: #2481ce; 
+  border: 2px solid #00cec9;
+}
